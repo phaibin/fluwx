@@ -24,7 +24,7 @@ A new Flutter plugin for Wechat SDK.
   s.frameworks = ["SystemConfiguration", "CoreTelephony","WebKit"]
   s.libraries = ["z", "sqlite3.0", "c++"]
   s.preserve_paths = 'Lib/*.a'
-  s.vendored_libraries = "**/*.a"
+  s.vendored_libraries = "Lib/libWeChatSDK.a"
  s.ios.deployment_target = '8.0'
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
